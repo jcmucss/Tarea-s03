@@ -14,6 +14,7 @@
 // console.log(`El suledo del trabajdor es ${Sueldo}`);
 
 // Ejercicio 3.3
+
 // let Dinero =260 ;
 // let Regalo = "";
 
@@ -32,6 +33,7 @@
 // console.log(`El regalo a escoger es ${Regalo}`)
 
 // Ejercicio 3.4
+
 // let Cobro=0;
 // let Horas=6;
 // for (var i=1 ; i<=Horas;i++){
@@ -51,6 +53,7 @@
 // console.log(`Se debe cobrar ${Cobro}`);
 
 // Ejercicio 3.8
+
 // let BonoAntiguedad = 0;
 // let BonoSueldo = 0;
 // let Antiguedad = 5;
@@ -74,3 +77,68 @@
 // }
 // console.log(`El sueldo total a recibir es ${Sueldo}`);
 
+// Ejercicio 3.9
+
+// let Plan = "B";
+// let CostoBase = 0;
+// let Cargo = 0;
+// let Habito = "alcohol";
+// let Lentes = true;
+// let Enfermedad = true;
+// let Edad = 41;
+// switch (Plan) {
+//     case "A":
+
+//         if (Habito === "alcohol") {
+//             Cargo = Cargo + 1200 * 0.1;
+//         }
+//         if (Lentes === true) {
+//             Cargo = Cargo + 1200 * 0.05;
+//         }
+//         if (Enfermedad = true) {
+//             Cargo = Cargo + 1200 * 0.05;
+//         }
+//         if (Edad > 40) {
+//             Cargo = Cargo + 1200 * 0.2;
+//         } else {
+//             Cargo = Cargo + 1200 * 0.1;
+//         }
+//         CostoBase = 1200 + Cargo
+//         break;
+
+//     case "B":
+//         if (Habito === "alcohol") {
+//             Cargo = Cargo + 950 * 0.1;
+//         }
+//         if (Lentes === true) {
+//             Cargo = Cargo + 1200 * 0.05;
+//         }
+//         if (Enfermedad = true) {
+//             Cargo = Cargo + 950 * 0.05;
+//         }
+//         if (Edad > 40) {
+//             Cargo = Cargo + 950 * 0.2;
+//         } else {
+//             Cargo = Cargo + 950 * 0.1;
+//         }
+//         CostoBase = 950 + Cargo;
+//         break;
+//     default:
+//             CostoBase=0;
+// }
+// console.log(`La poliza le cuesta ${CostoBase} soles`);
+
+// Ejercicio 3.11
+
+// let Bono = 0;
+// let Años = 10;
+// for (var a = 1; a <= Años; a++) {
+
+//     if (a <= 5) {
+//         Bono = Bono + a * 100;
+//     } else {
+//         Bono = Bono + 1000;
+//     }
+
+// }
+// console.log(`El bono total es ${Bono}`);
